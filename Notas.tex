@@ -1,0 +1,19 @@
+dom = Modelo de Objetos del Documento
+documento es toda el html
+getElementById() como addEventListener() son métodos predeterminados que ya vienen incorporados 
+en JavaScript y en el navegador.
+
+En cambio, una función creada por ti sería:
+
+function saludar() {
+    alert("Hola");
+}
+
+JavaScript busca la función llamada saludar 
+y ejecuta lo que está entre {}.
+document.getElementById("btn").addEventListener("click", saludar);
+click
+ ↓
+saludar()
+ ↓
+alert("Hola")
